@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcular IMC</title>
+</head>
+<body>
+    <section>
+        <div class="text-Main">
+            <h1>Cálculo IMC</h1>
+            <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde<br> 
+                para calcular o peso ideal de cada pessoa.</p>
+            <p>O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado.<br> 
+                Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</p>
+            <p>Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela.<br> 
+                Importante: siga os exemplos e use pontos como separadores.</p>
+        </div>
+        
+        <div class="Form-Main">
+            <label for="nome">Nome</label>
+            <input type="text" class="name" name="nome" placeholder="Nome">
+            
+            <form>
+                <label for="peso">Peso (ex.: 69,2)</label>
+                <input type="number" class="peso" name="peso" placeholder="Quilos">
+                <button>Calcular</button>
+
+                <label for="altura">Altura (ex.:1,70)</label>
+                <input type="number" class="alt" name="altura" placeholder="Metros">
+                <button>Limpar</button>
+            </form>
+        </div>
+        <div class="lista-info">
+            <h3>VEJA A INTERPRETAÇÃO DO IMC</h3>
+
+            <div class="list">
+                <ul>
+                    <li>IMC</li>
+                    <li>MENOR QUE 18,5</li>
+                    <li>ENTRE 18,5 E 24,9</li>
+                    <li>ENTRE 25,0 E 29,9</li>
+                    <li>ENTRE 30,0 E 39,9</li>
+                    <li>MAIOR QUE 40,0</li>
+                </ul>
+
+                <ul>
+                    <li>CLASSIFICAÇÃO</li>
+                    <li>MAGREZA</li>
+                    <li>NORMAL</li>
+                    <li>SOBREPESO</li>
+                    <li>OBESIDADE</li>
+                    <li>OBESIDADE GRAVE</li>
+                </ul>
+
+                <ul>
+                    <li>OBESIDADE (GRAU)</li>
+                    <li>0</li>
+                    <li>0</li>
+                    <li>I</li>
+                    <li>II</li>
+                    <li>III</li>
+                </ul>
+            </div>
+        </div>
+        <div class="resultado"></div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
