@@ -3,3 +3,33 @@
     margin: 0px;
     padding: 0px;
 }
+section{
+    background: aqua;
+    margin: 5%;
+}
+form{
+    background-color: green;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    width: 100px;
+}
+form button{
+    width: 100px;
+}
+.lista-info{
+    background-color: violet;
+}
+.list{
+    background-color: red;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
