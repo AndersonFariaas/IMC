@@ -2,34 +2,120 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 section{
-    background: aqua;
-    margin: 5%;
+    box-shadow: 0px 0px 1px grey;
+    margin: auto 10%;
+    padding: 0% 1%;
+    display: flex;
+    flex-direction: column;
+}
+.text-Main{
+    background: whitesmoke;
+    padding: 1%;
+    box-shadow: 0px 0px 1px grey;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+h1{
+    padding: 10px;
+    font-size: 40px;
+}
+.text-Main p{
+    text-align: left;
+    font-size: 18px;
+    margin: 1%;
 }
 form{
-    background-color: green;
-    width: 300px;
+    background-color: white;
+    width: 40%;
+    padding: 3%;
+    border: 1px solid blue;
+    border-radius: 10px;
     display: flex;
     justify-content: space-around;
+}
+.form-Main{
+    background: whitesmoke;
+    box-shadow: 0px 0px 1px grey;
+    width: 100%;
+    padding: 1% 5%;
+    margin: 1% auto;
+}
+.box-Main{
+    width: 100%;
+    box-shadow: 0px -2px 1px gray;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.resultado{
+    width: 40%;
+    background-color: white;
+    padding: 3%;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid red;
 }
 form div{
     display: flex;
     flex-direction: column;
 }
+form label{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: blue;
+}
 form input{
-    width: 100px;
+    width: 120px;
+    padding: 7px;
+    border-radius: 10px;
+    border-color: blue;
 }
 form button{
-    width: 100px;
+    width: 120px;
+    padding: 12px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    border: none;
+    font-weight:bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn-calc{
+    background-color: blue;
+    color: white;
 }
 .lista-info{
-    background-color: violet;
+    background-color: whitesmoke;
+    text-align: center;
+    box-shadow: 0px 0px 1px grey;
+    padding: 2%;
 }
 .list{
-    background-color: red;
-    width: 700px;
+    background-color:white;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+.list ul{
+    list-style: none;
+}
+.list li{
+    margin: 0.5%;
+    padding: 0.4%;
+    width: 340px;
+    box-shadow: 0px 0px 1px;
+}
+.li1, .li2, .li3{
+    background-color: red;
+    color: white;
+}
+h3{
+    margin-top: -10px;
+    margin-bottom: 10px;
 }

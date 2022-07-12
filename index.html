@@ -19,30 +19,30 @@
                 Importante: siga os exemplos e use pontos como separadores.</p>
         </div>
         
-        <div class="Form-Main">
-            <label for="nome">Nome</label>
-            <input type="text" class="name" name="nome" placeholder="Nome">
-            
-            <form>
-                <div>
-                    <label for="altura">Altura <small>(ex.:1,70)</small></label>
-                    <input type="number" class="alt" name="altura" placeholder="Metros">
-                    <button>Limpar</button>
-                </div>
-                <div>
-                    <label for="peso">Peso <small>(ex.: 69,2)</small></label>
-                    <input type="number" class="peso" name="peso" placeholder="Quilos">
-                    <button>Calcular</button>
-                </div>
-                
-            </form>
+        <div class="form-Main">
+            <div class="box-Main">
+               <form>
+                    <div>
+                        <label for="altura">Altura <small>(ex.: 1,70)</small></label>
+                        <input type="number" class="alt" name="altura" placeholder="Metros">
+                        <button class="btn-calc">Calcular</button>
+                    </div>
+                    <div>
+                        <label for="peso">Peso <small>(ex.: 69,2)</small></label>
+                        <input type="number" class="peso" name="peso" placeholder="Quilos" >
+                        <button>Limpar</button>
+                    </div> 
+                </form>
+                <div class="resultado"></div> 
+            </div>
         </div>
+
         <div class="lista-info">
             <h3>VEJA A INTERPRETAÇÃO DO IMC</h3>
 
             <div class="list">
                 <ul>
-                    <li>IMC</li>
+                    <li class="li1">IMC</li>
                     <li>MENOR QUE 18,5</li>
                     <li>ENTRE 18,5 E 24,9</li>
                     <li>ENTRE 25,0 E 29,9</li>
@@ -51,7 +51,7 @@
                 </ul>
 
                 <ul>
-                    <li>CLASSIFICAÇÃO</li>
+                    <li class="li2">CLASSIFICAÇÃO</li>
                     <li>MAGREZA</li>
                     <li>NORMAL</li>
                     <li>SOBREPESO</li>
@@ -60,7 +60,7 @@
                 </ul>
 
                 <ul>
-                    <li>OBESIDADE <small>(GRAU)</small></li>
+                    <li class="li3">OBESIDADE <small>(GRAU)</small></li>
                     <li>0</li>
                     <li>0</li>
                     <li>I</li>
@@ -69,9 +69,6 @@
                 </ul>
             </div>
         </div>
-
-        <div class="resultado"></div>
-
     </section>
     <script src="app.js"></script>
 </body>
