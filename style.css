@@ -106,9 +106,9 @@ form button{
     list-style: none;
 }
 .list li{
-    margin: 0.5%;
-    padding: 0.4%;
-    width: 340px;
+    margin: 0.3%;
+    padding: 0.5%;
+    width: 25vw;
     box-shadow: 0px 0px 1px;
 }
 .li1, .li2, .li3{

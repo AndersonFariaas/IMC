@@ -10,7 +10,7 @@
 <body>
     <section>
         <div class="text-Main">
-            <h1>Cálculo IMC</h1>
+            <h1>Calculadora IMC</h1>
             <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde<br> 
                 para calcular o peso ideal de cada pessoa.</p>
             <p>O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado.<br> 
@@ -25,12 +25,12 @@
                     <div>
                         <label for="altura">Altura <small>(ex.: 1,70)</small></label>
                         <input type="number" class="alt" name="altura" placeholder="Metros">
-                        <button class="btn-calc">Calcular</button>
+                        <button type="button" class="btn-calc" onclick="imc();">Calcular</button>
                     </div>
                     <div>
                         <label for="peso">Peso <small>(ex.: 69,2)</small></label>
                         <input type="number" class="peso" name="peso" placeholder="Quilos" >
-                        <button>Limpar</button>
+                        <button type="reset">Limpar</button>
                     </div> 
                 </form>
                 <div class="resultado"></div> 
