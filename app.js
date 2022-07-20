@@ -1,9 +1,9 @@
 
 function imc(){
-    let alt = parseFloat(document.querySelector('input.alt').value);
-    let peso = parseFloat(document.querySelector('input.peso').value);
+    let alt = document.querySelector('input.alt').value;
+    let peso = document.querySelector('input.peso').value;
     
-    let calcIMC = peso / (alt * alt);
+    let calcIMC = parseFloat(peso / (alt * alt));
 
     let resultado = document.querySelector('div.resultado');
 
